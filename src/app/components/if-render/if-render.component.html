@@ -1,0 +1,15 @@
+<div class="global">
+    <!--Somente com if-->
+    <div *ngIf="canShow">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, soluta minus? Temporibus dolorum nihil nemo eaque eveniet iusto aliquam placeat incidunt quos expedita. Eum numquam maiores dolores dicta animi possimus?
+    </div>
+   
+    <h2 *ngIf = "'name === Eliana'; 'else nameNotFound'">O nome é Eliana</h2>
+
+    <ng-template #nameNotFound>
+       <div>
+        <p>Nome não encontrado</p>
+       </div>
+    </ng-template>
+</div>
+
