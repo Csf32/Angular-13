@@ -12,6 +12,12 @@ import { EmitterComponent } from './components/emitter/emitter.component';
 import { ChangeNumberComponent } from './components/change-number/change-number.component';
 import { ListRenderComponent } from './components/list-render/list-render.component';
 import { PipesComponent } from './components/pipes/pipes.component';
+import { ComponentesPersonalizadosComponent } from './components/componentes-personalizados/componentes-personalizados.component';
+import { ComponentsFatherComponent } from './components/components-father/components-father.component';
+import { ComponentsSonComponent } from './components/components-son/components-son.component';
+import { FormsModule } from '@angular/forms';
+import { Services1Component } from './components/services1/services1.component';
+import { Services2Component } from './components/services2/services2.component';
 
 
 
@@ -30,12 +36,18 @@ import { PipesComponent } from './components/pipes/pipes.component';
     ChangeNumberComponent,
     ListRenderComponent,
     PipesComponent,
-   
-   
+    ComponentesPersonalizadosComponent,
+    ComponentsFatherComponent,
+    ComponentsSonComponent,
+    Services1Component,
+    Services2Component
+
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
